@@ -59,7 +59,7 @@ public class BilheteView {
             System.out.print("Preço: $");
             preco = Double.parseDouble(Main.in.nextLine());
 
-            System.out.print("Companhai Aerea: ");
+            System.out.print("Companhia Aerea: ");
             comp = CompanhiaAereaController.buscar(Main.in.nextLine());
 
             if (comp == null) {

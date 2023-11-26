@@ -10,7 +10,7 @@ public class EnderecoView {
         System.out.print("Rua: ");
         String rua = Main.in.nextLine();
 
-        System.out.print("Numéro: ");
+        System.out.print("Número: ");
         int num = Integer.parseInt(Main.in.nextLine());
 
         System.out.print("Bairro: ");

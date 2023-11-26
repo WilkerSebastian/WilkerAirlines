@@ -130,7 +130,7 @@ public class PassagemController {
 
             if (pa == null) {
                 
-                System.out.println("AVISO: número de passporte " + num + ", não encontrado mas o processo continua!");
+                System.out.println("AVISO: número de passaporte " + num + ", não encontrado mas o processo continua!");
 
             } else {
 

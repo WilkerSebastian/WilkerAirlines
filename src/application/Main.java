@@ -32,8 +32,14 @@ public class Main {
     
     public static void main(String[] args) throws IOException, InterruptedException {
 
-        /* AVISO nas classes controller uso essa expressão
+        /* AVISOS 
+
+            Tentei seguir o padrão MVC, então nesse no package Model vão estar as classes modelo do PDF.
+            No View vão estar as "interfaces", menus, entrada e saída para refenrete classes modelo. No controller
+            vai está lógica que redireciona a interface referente a entrada do usuario e manipulaa os arrays de data.
         
+            nas classes controller uso essa expressão:
+
             onde nela pego um array uso método de stream para ter acesso aos métodos como o filter,
             para assim eu possa usar lambda para pecorrer o array e pegar os elementos com mesma "chaves primarias" 
             assim facilitando minha verificição de elementos repetido.

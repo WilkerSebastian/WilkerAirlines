@@ -54,7 +54,7 @@ public class VooView {
             System.out.print("Número do voo: ");
             numVoo = Main.in.nextLine();
 
-            System.out.print("Aeroporto de destino(código do aeroporto): ");
+            System.out.print("Aeroporto de origem(código do aeroporto): ");
             origem = Main.in.nextLine();
 
             apOrigem = AeroPortoController.buscar(origem);
